@@ -22,6 +22,12 @@ body{
   background-color: var(--secondary-color);
 }
 
+.flex-row{
+  display: flex;
+  border-bottom: 3px solid var(--tertiary-color);
+  padding-bottom: 60px;
+}
+
 /* header styling start */
 header{
   display: flex;
@@ -141,7 +147,6 @@ header div{ /*secondary-background container*/
   border-radius: 25px;
   margin-left: 35px;
   margin-right: 35px;
-  
 }
 /* header styling end */
 
@@ -151,6 +156,7 @@ header div{ /*secondary-background container*/
   display: flex;
   align-items: flex-start;
   width: 100%;
+  padding-bottom: 30%;
 }
 
 .hero{
@@ -161,6 +167,7 @@ header div{ /*secondary-background container*/
   width: 100%;
   background-attachment: fixed;
   margin: 0;
+  padding-bottom: 30%;
   justify-content: center;
   position: relative;
   /* clip path order: TOP left, middle, right, BOTTOM left, middle, right*/
@@ -181,7 +188,7 @@ header div{ /*secondary-background container*/
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  margin-top: 10%;
+  margin-top: 30%;
   margin-bottom: 20%;
   margin-left: 20%;
   margin-right: 20%;
@@ -221,6 +228,66 @@ header div{ /*secondary-background container*/
 }
 /* hero aka home section styling end */
 
+/* about me styling start */
+.about-me {
+  padding: 100px 5%;
+  padding-top: 80px;
+  width: 100%;
+  text-align: center;
+  /* clip-path: polygon(0 10%, 37% 0, 100% 10%, 100% 90%, 63% 100%, 0 90%); */
+}
+
+.border-bottom {
+  border-bottom: 3px solid var(--tertiary-color);
+}
+
+.about-p {
+  margin: 20px 0;
+  font-size: 4vw;
+}
+
+.about-me h2{
+  color: var(--primary-color);
+  text-shadow: 0 0 10px black;
+  margin-right: 0;
+  text-align: right;
+  background-color: var(--tertiary-color);
+  padding: 30px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.about-me img{
+  margin-right: 60px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+}
+
+.about-p {
+  color: white;
+}
+
+/* about me styling end */
+
+
+/*************************************************************************/
+/*************************************************************************/
+/*************************************************************************/
+/*************************************************************************/
+/*************************************************************************/
+/*************************** MEDIA QUERIES START *************************/
+/*************************** MEDIA QUERIES START *************************/
+/*************************** MEDIA QUERIES START *************************/
+/*************************** MEDIA QUERIES START *************************/
+/*************************************************************************/
+/*************************************************************************/
+/*************************************************************************/
+/*************************************************************************/
+/*************************************************************************/
+
 @media screen and (max-width: 1024px) {
 
   header{
@@ -230,10 +297,27 @@ header div{ /*secondary-background container*/
   .hero{
     width: 100%;
   }
+
   .flex-row {
     justify-content: center;
     position: relative;
     flex-wrap: wrap;
+  }
+
+  .me-picture {
+    width: 300px !important;
+    height: 250px !important;
+  }
+  .about-me img{
+    margin-right: 0;
+  }
+  .border-right {
+    display: none;
+    opacity: 0;
+  }
+
+  .about-p {
+    font-size: 3vw;
   }
 }
 
@@ -255,6 +339,11 @@ header div{ /*secondary-background container*/
     height:100%;
     display: flex;
     justify-content: center;
+  }
+
+  .me-picture {
+    width: 300px !important;
+    height: 250px !important;
   }
 }
 
@@ -289,6 +378,11 @@ header div{ /*secondary-background container*/
     margin-left: 5%;
     margin-right: 5%;
   }
+
+  .me-picture {
+    width: 160px !important;
+    height: 150px !important;
+  }
 }
 
 @media screen and (max-width: 414px) {
@@ -304,6 +398,15 @@ header div{ /*secondary-background container*/
   }
   header nav ul {
     justify-content: center;
+  }
+
+  .flex-row {
+    flex-wrap: nowrap !important;
+  }
+
+  .me-picture {
+    width: 100px;
+    height: 80px;
   }
 }
 
@@ -323,6 +426,11 @@ header div{ /*secondary-background container*/
   .hero-title {
     margin-left: 5%;
     margin-right: 5%;
+  }
+
+  .me-picture {
+    width: 160px !important;
+    height: 150px !important;
   }
 }
 
