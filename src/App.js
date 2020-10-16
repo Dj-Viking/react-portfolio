@@ -8,7 +8,7 @@ import Footer from './components/Footer.js';
 import Contact from './components/Contact.js';
 import './index.css';
 
-function Portfolio() {
+function App() {
   const [currentTab, setTab] = useState('Home');
   const renderSection = () => {
     switch (currentTab) {
@@ -24,18 +24,23 @@ function Portfolio() {
         return <Home />;
     }
   }
+
   return (
-    <div className="App">
-      <Header 
-        currentTab={currentTab}
-        setTab={setTab}
-      />
-      <div>
-        {renderSection(currentTab)}
+    <div>
+      <div className="App">
+        <Header 
+          currentTab={currentTab}
+          setTab={setTab}
+        />
+        <div>
+          {renderSection(currentTab)}
+        </div>
       </div>
+      <>
       <Footer />
+      </>
     </div>
   );
 }
 
-export default Portfolio;
+export default App;

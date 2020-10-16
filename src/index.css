@@ -10,6 +10,13 @@
   font-family: "Lucida Console", Monaco, monospace;
 }
 
+#root {
+  width: 100%;
+}
+.App {
+  width: 100%;
+}
+
 body{
   z-index: 9999;
   background-color: var(--secondary-color);
@@ -135,4 +142,192 @@ header div{ /*secondary-background container*/
   margin-left: 35px;
   margin-right: 35px;
   
+}
+/* header styling end */
+
+/* hero aka home section styling start */
+.hero-flex{
+  justify-content: center;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.hero{
+  height: 10%;
+  background-image: url('./images/open-road-resized.jpg');
+  background-position: 80%;
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+  margin: 0;
+  justify-content: center;
+  position: relative;
+  /* clip path order: TOP left, middle, right, BOTTOM left, middle, right*/
+  clip-path: polygon(0 0%, 100% 0, 100% 0%, 100% 90%, 50% 100%, 0 90%);
+}
+
+.hero-title{
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border-style: solid;
+  padding: 0 0 50px 0;
+  border-color: var(--primary-color);
+  border-radius: 15px;
+  border-width: 3px;
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, .5);
+  height: 30%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  margin-left: 20%;
+  margin-right: 20%;
+  align-items: center;
+  z-index: 1;
+  opacity: .9;
+}
+
+.hero-title h2 {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.hero-title h3 {
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+#canvas-div {
+  position: relative;
+  width: 100%;
+  height:100%;
+  display: flex;
+  justify-content: center;
+}
+
+#defaultCanvas0 {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  opacity: .5;
+  border-radius: 20px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+/* hero aka home section styling end */
+
+@media screen and (max-width: 1024px) {
+
+  header{
+    justify-content: center;
+    position: relative;
+  }
+  .hero{
+    width: 100%;
+  }
+  .flex-row {
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  header nav ul li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  header nav ul li a {
+    padding: 15px;
+  }
+  .hero-title {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #canvas-div {
+    position: relative;
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  header{
+    padding-left: 0;
+    padding-right: 0;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: nowrap !important;
+  }
+  /* header nav {
+    font-size: 3.5vw !important ;
+  } */
+  header nav ul {
+    flex-wrap: nowrap !important;
+    justify-content: center;
+  }
+  header nav ul li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 3vw !important;
+  }
+  header nav ul li a {
+    padding: 15px;
+  }
+  .secondary-background{
+    opacity: 0;
+  }
+  .hero-title {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  header nav ul li {
+    margin: 0;
+    font-size: 3vw;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header nav ul li {
+    font-size: 3vw;
+  }
+  header nav ul {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  header nav ul {
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+  }
+  header nav ul li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 2.3vw !important;
+  }
+  /* header nav ul li a {
+    padding: 15px;
+  } */
+  .hero-title {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  header nav ul li {
+    font-size: 2.4vw !important;
+  }
 }
