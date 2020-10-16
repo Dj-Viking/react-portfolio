@@ -37,10 +37,12 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## TODO
 
-* [] header - at top of all pages
+* [x] header - at top of all pages
+  - contains all tabs to click for rendering main section
 * [] nav - used to render sections of the body
-  - about me
+  - about
   - projects
+  - resume
   - contact
     * contact form
       - validate inputs, display error message if invalid inputs

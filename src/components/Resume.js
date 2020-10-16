@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Footer() {
+function Resume() {
   return (
     <div>
-      Footer
+      Resume
     </div>
   )
 }
 
-export default Footer;
+export default Resume;
