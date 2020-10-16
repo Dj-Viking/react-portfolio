@@ -8,8 +8,6 @@ import Footer from './components/Footer.js';
 import Contact from './components/Contact.js';
 import './index.css';
 
-
-
 function Portfolio() {
   const [currentTab, setTab] = useState('Home');
   const renderSection = () => {
