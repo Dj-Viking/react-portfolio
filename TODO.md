@@ -42,6 +42,9 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
   - about me
   - projects
   - contact
+    * contact form
+      - validate inputs, display error message if invalid inputs
+      - display success message and thanks for submitting
   - resume
 * [] project  - component to display all projects
   - image of deployed project
@@ -51,7 +54,6 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 * [] footer - at bottom of all pages
   - github
   - linkedin
+  - email
   - twitch
-  - soundcloud
-
 * [] try react-spring for animations 
