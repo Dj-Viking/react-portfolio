@@ -40,13 +40,13 @@ function Projects() {
               <p>
                 {project.technologies}
               </p>
-            <div class="project-button-container">
+            <div className="project-button-container">
               <a 
                 target="_blank" 
                 href={project.deployLink} 
                 rel="noopener noreferrer"
               > <button 
-                  class="project-btn"
+                  className="project-btn"
                 > GitHub Repository
                 </button>
               </a>
@@ -55,7 +55,7 @@ function Projects() {
                 href={project.githubLink} 
                 rel="noopener noreferrer"
               > <button 
-                  class="project-btn"
+                  className="project-btn"
                 > Deployed App Page
                 </button>
               </a>

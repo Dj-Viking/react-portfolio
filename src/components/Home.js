@@ -75,9 +75,9 @@ function Home() {
 
   return (
     <div>
-      <section class="hero-flex">
-        <section class="hero">
-          <div class="hero-title">
+      <section className="hero-flex">
+        <section className="hero">
+          <div className="hero-title">
             <div id="canvas-div">
               <div id="canvas-anchor">
                 <Sketch setup={setup} draw={draw}/>
