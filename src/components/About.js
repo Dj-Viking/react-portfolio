@@ -11,7 +11,7 @@ function About() {
         <div className="border-right"></div>
       </div>
       <p className="about-p">
-        Anders has adventurous ambitions which include a deep passion for Software Development, Music Composition, and the Audio Visual Arts. 
+        Anders has adventurous ambitions which include a deep passion for Software Development, Music Production, and the Audio Visual Arts. 
       </p>
       <div className="border-bottom"></div>
       <p className="about-p">

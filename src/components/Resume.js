@@ -3,7 +3,13 @@ import React from 'react';
 function Resume() {
   return (
     <div>
-      Resume
+      <iframe 
+        src={require("../images/anders-resume.pdf")}
+        width="1000px" 
+        height="500px"
+        title="resume"
+      >
+      </iframe>
     </div>
   )
 }
