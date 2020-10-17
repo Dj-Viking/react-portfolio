@@ -38,24 +38,29 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ## TODO
 
 * [x] header - at top of all pages
-  - contains all tabs to click for rendering main section
+  - [x] contains all tabs to click for rendering main section
+  - [x] section styling
 * [] nav - used to render sections of the body
-  - about
-  - projects
-  - resume
-  - contact
-    * contact form
-      - validate inputs, display error message if invalid inputs
-      - display success message and thanks for submitting
-  - resume
+  - [x] about
+  - [x] projects
+  - [x] resume
+  - [] contact
+    * [x]contact form
+      - [] validate inputs, display error message if invalid inputs
+      - [] display success message and thanks for submitting
+      - [] section styling
 * [] project  - component to display all projects
-  - image of deployed project
-  - title of project
-  - link to deployed app
-  - link to github
+  - [x] image of deployed project
+  - [x] title of project
+  - [x] link to deployed app
+  - [x] link to github
+  - [] section styling
+  - carousel?? (maybe with react-spring)
 * [] footer - at bottom of all pages
-  - github
-  - linkedin
-  - email
-  - twitch
+  - [] icons
+    * [] github 
+    * [] linkedin
+    * [] email
+    * [] twitch
+    * [] section styling
 * [] try react-spring for animations 
