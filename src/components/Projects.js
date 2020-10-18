@@ -44,7 +44,7 @@ function Projects() {
               </h2>
               <img 
                 className="work-img"
-                src={require(`../images/${project.imageSrc}`)} 
+                src={require(`../assets/images/${project.imageSrc}`)} 
                 alt="project snapshot" 
               />
             </div>

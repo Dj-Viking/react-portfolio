@@ -33,7 +33,7 @@ header{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-image: url('./images/open-road-resized.jpg');
+  background-image: url('./assets/images/open-road-resized.jpg');
   background-position: 80%;
   background-size:cover;
   background-attachment: fixed;
@@ -138,7 +138,7 @@ header div{ /*secondary-background container*/
   display: flex;
   content: "";  
   padding: 30px 30px 35px 30px;  
-  background-image: url('./images/mountains-resized.jpg');
+  background-image: url('./assets/images/mountains-resized.jpg');
   background-position: 50%;
   background-size:cover;
   background-attachment: fixed;
@@ -161,7 +161,7 @@ header div{ /*secondary-background container*/
 
 .hero{
   height: 10%;
-  background-image: url('./images/open-road-resized.jpg');
+  background-image: url('./assets/images/open-road-resized.jpg');
   background-position: 80%;
   background-size: cover;
   width: 100%;
@@ -244,7 +244,7 @@ header div{ /*secondary-background container*/
   justify-content: center;
 }
 .about-me-flex-row h2{
-  font-size: 4vw;
+  font-size: 2.5vw;
 }
 
 .border-bottom {
