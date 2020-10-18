@@ -251,6 +251,7 @@ header div{ /*secondary-background container*/
   border-bottom: 3px solid var(--tertiary-color);
 }
 
+
 .about-p {
   margin: 20px 0;
   font-size: 4vw;
@@ -290,6 +291,7 @@ header div{ /*secondary-background container*/
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  margin-top: 10px;
 }
 /* project card start */
 
@@ -315,7 +317,22 @@ header div{ /*secondary-background container*/
   padding-left: 10px;
   padding-right: 10px;
 }
-
+.project-description {
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+.border-bottom2 {
+  border-bottom: 10px groove var(--secondary-color);
+  border-radius: 5px;
+}
+.tech-used {
+  margin-top: 10px;
+  text-align: center;
+}
+.project-badge {
+  margin: 5px;
+  margin-bottom: 0;
+}
 .project-button-container {
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -323,6 +340,12 @@ header div{ /*secondary-background container*/
   
 }
 .project-btn {
+  cursor: pointer;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 10px;
+  border-radius: 10px;
+  transition: 1s;
   margin-top: 10px;
 }
 
@@ -348,12 +371,14 @@ header div{ /*secondary-background container*/
   flex-direction: column;
   text-align: center;
   margin: 0 20%;
+  color: white;
 }
 
 .form-name {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: black;
 }
 .form-name input {
   border-radius: 10px;
@@ -364,6 +389,7 @@ header div{ /*secondary-background container*/
 .form-email {
   display: flex;
   flex-direction: column;
+  color: black;
 }
 .form-email input {
   border-radius: 10px;
@@ -374,6 +400,7 @@ header div{ /*secondary-background container*/
 .form-message {
   display: flex;
   flex-direction: column;
+  color: black;
 }
 .form-textarea {
   -webkit-border-radius: 10px;
