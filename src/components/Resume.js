@@ -4,7 +4,7 @@ function Resume() {
   return (
     <div>
       <iframe 
-        src={require("../images/anders-resume.pdf")}
+        src={require("../assets/images/anders-resume.pdf")}
         width="1000px" 
         height="500px"
         title="resume"
