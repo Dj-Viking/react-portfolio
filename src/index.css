@@ -237,9 +237,20 @@ header div{ /*secondary-background container*/
   /* clip-path: polygon(0 10%, 37% 0, 100% 10%, 100% 90%, 63% 100%, 0 90%); */
 }
 
+.about-me-flex-row{
+  display: flex;
+  border-bottom: 3px solid var(--tertiary-color);
+  padding-bottom: 60px;
+  justify-content: center;
+}
+.about-me-flex-row h2{
+  font-size: 4vw;
+}
+
 .border-bottom {
   border-bottom: 3px solid var(--tertiary-color);
 }
+
 
 .about-p {
   margin: 20px 0;
@@ -275,14 +286,78 @@ header div{ /*secondary-background container*/
 
 /* projects styling start */
 
-.work-header-flex-row {
+.project-flex-column {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  margin-top: 10px;
+}
+/* project card start */
+
+.work-img {
+  height: 10%;
+  width: 100%;
 }
 
-/* projects styling end */
+.card-title {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 0 10%;
+}
+
+.card-description {
+  color: white;
+  background-color: var(--tertiary-color);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin: 0 10%;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.project-description {
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+.border-bottom2 {
+  border-bottom: 10px groove var(--secondary-color);
+  border-radius: 5px;
+}
+.tech-used {
+  margin-top: 10px;
+  text-align: center;
+}
+.project-badge {
+  margin: 5px;
+  margin-bottom: 0;
+}
+.project-button-container {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  
+}
+.project-btn {
+  cursor: pointer;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 10px;
+  border-radius: 10px;
+  transition: 1s;
+  margin-top: 10px;
+}
+
+.card-header {
+  background-color: var(--tertiary-color);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+/*** project card end ***/
+
+/*** projects styling end ***/
 
 /* contact form styling start */
 
@@ -290,6 +365,58 @@ header div{ /*secondary-background container*/
   margin-bottom: 30%;
 }
 
+
+.form-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 20%;
+  color: white;
+}
+
+.form-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+}
+.form-name input {
+  border-radius: 10px;
+  border: solid 3px var(--secondary-color);
+  height: 50px;
+}
+
+.form-email {
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+.form-email input {
+  border-radius: 10px;
+  border: solid 3px var(--secondary-color);
+  height: 50px;
+}
+
+.form-message {
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+.form-textarea {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: solid 3px var(--secondary-color);
+  height: 100px;
+  resize: none;
+}
+
+.form-error {
+  color: black;
+}
+.form-success {
+  color: green;
+}
 /* contact form styling end */
 
 /* footer styling start */

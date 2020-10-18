@@ -26,18 +26,17 @@ function App() {
   }
 
   return (
-    <div>
-      <div className="App">
-        <Header 
-          currentTab={currentTab}
-          setTab={setTab}
-        />
-        <div>
-          {renderSection(currentTab)}
-        </div>
-      </div>
+
+    <div className="App">
+      <Header 
+        currentTab={currentTab}
+        setTab={setTab}
+      />
+      <main>
+        {renderSection(currentTab)}
+      </main>
       <>
-      <Footer />
+        <Footer />
       </>
     </div>
   );
