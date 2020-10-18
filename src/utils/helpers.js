@@ -1,5 +1,4 @@
 export function validateEmail(email) {
-  // var re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-  const regex = /\w+@\w+\.\w+/;
+  const regex = /^[a-zA-Z0-9]{1,15}?\.?[a-zA-Z0-9]{1,15}@[a-zA-Z0-9]{3,15}\.[a-zA-Z]{3,8}$/g;
   return regex.test(String(email).toLowerCase());
 }

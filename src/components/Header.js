@@ -17,15 +17,29 @@ function Header(props) {
         {
           tabs.map(tab => (
             <li key={tab}>
-              <a
-                href={'#' + tab.toLowerCase()}
-                onClick={() => setTab(tab)}
-                className={
-                  currentTab === tab ? 'nav-link active' : 'nav-link'
-                }
-              >
-                {tab}
-              </a>
+              {
+                tab === 'Resume'
+                ?
+                (
+                  <a
+                    target="_blank" 
+                    href="https://docs.google.com/document/d/1qbMSl29EXZBkvwZH6blgTdRlpMsVLCYwTo5eT0pKOQc/edit"
+                    rel="noreferrer noopener"
+                  > {tab}
+                  </a>
+                )
+                : 
+                (
+                  <a
+                    href={'#' + tab.toLowerCase()}
+                    onClick={() => setTab(tab)}
+                    className={
+                      currentTab === tab ? 'nav-link active' : 'nav-link'
+                    }
+                  > {tab}
+                  </a>
+                )
+              }
             </li>
           ))
         }

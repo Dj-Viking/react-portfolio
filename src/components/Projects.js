@@ -22,18 +22,23 @@ function Projects() {
 
   // const testHref = '/'
   return (
-    <div>
+    <div className="project-flex-column">
       {
         projects.map(project => (
-          <div className="work-header-flex-row">
-            <h2>
-              {project.name}
-            </h2>
-            <img 
-              className="work-img"
-              src={require(`../images/${project.imageSrc}`)} 
-              alt="project snapshot" 
-            />
+          <section 
+            className="project-section"
+            key={project.name}
+          > <div className="card-title">
+              <h2 className="card-header">
+                {project.name}
+              </h2>
+              <img 
+                className="work-img"
+                src={require(`../images/${project.imageSrc}`)} 
+                alt="project snapshot" 
+              />
+            </div>
+            <div className="card-description">
               <p>
                 {project.description}
               </p>
@@ -43,7 +48,7 @@ function Projects() {
             <div className="project-button-container">
               <a 
                 target="_blank" 
-                href={project.deployLink} 
+                href={project.githubLink} 
                 rel="noopener noreferrer"
               > <button 
                   className="project-btn"
@@ -52,7 +57,7 @@ function Projects() {
               </a>
               <a 
                 target="_blank" 
-                href={project.githubLink} 
+                href={project.deployLink} 
                 rel="noopener noreferrer"
               > <button 
                   className="project-btn"
@@ -60,7 +65,8 @@ function Projects() {
                 </button>
               </a>
             </div>
-          </div>
+            </div>
+          </section>
         ))
       }
     </div>

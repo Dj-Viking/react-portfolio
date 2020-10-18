@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
   return (
     <section className="about-me">
-      <div className="flex-row">
+      <div className="about-me-flex-row">
         <h2>
           About Me
         </h2>
