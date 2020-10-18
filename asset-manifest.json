@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.11c9a589.chunk.css",
+    "main.js": "/static/js/main.5660893a.chunk.js",
+    "main.js.map": "/static/js/main.5660893a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e312f208.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e312f208.js.map",
+    "static/js/2.911921cf.chunk.js": "/static/js/2.911921cf.chunk.js",
+    "static/js/2.911921cf.chunk.js.map": "/static/js/2.911921cf.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.92da3fb1e5105c647428deaf987afb33.js": "/precache-manifest.92da3fb1e5105c647428deaf987afb33.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.11c9a589.chunk.css.map": "/static/css/main.11c9a589.chunk.css.map",
+    "static/js/2.911921cf.chunk.js.LICENSE.txt": "/static/js/2.911921cf.chunk.js.LICENSE.txt",
+    "static/media/ME.jpg": "/static/media/ME.bc25cff4.jpg",
+    "static/media/anders-resume.pdf": "/static/media/anders-resume.53b406b0.pdf",
+    "static/media/cube-wave.gif": "/static/media/cube-wave.8cb9993a.gif",
+    "static/media/mountains-resized.jpg": "/static/media/mountains-resized.150addc3.jpg",
+    "static/media/nomadica-img.png": "/static/media/nomadica-img.370cbfdb.png",
+    "static/media/open-road-resized.jpg": "/static/media/open-road-resized.f18e9761.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e312f208.js",
+    "static/js/2.911921cf.chunk.js",
+    "static/css/main.11c9a589.chunk.css",
+    "static/js/main.5660893a.chunk.js"
+  ]
+}
