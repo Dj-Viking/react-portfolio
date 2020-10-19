@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51826dae153ee40e841980f0cde43b01",
+    "revision": "7bd02f50e221fa1bb17e1276e6e35376",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "86947cf2d1b12e473d1c",
-    "url": "/react-portfolio/static/css/main.7a4a159e.chunk.css"
+    "revision": "99c79699215b60d6cb95",
+    "url": "/react-portfolio/static/css/main.c4c70c7a.chunk.css"
   },
   {
-    "revision": "98794a362d01d2e7755c",
-    "url": "/react-portfolio/static/js/2.911921cf.chunk.js"
+    "revision": "3ffa3e79970387d47c50",
+    "url": "/react-portfolio/static/js/2.ddedc36e.chunk.js"
   },
   {
     "revision": "570d362d673dab785e62d2b8563e1118",
-    "url": "/react-portfolio/static/js/2.911921cf.chunk.js.LICENSE.txt"
+    "url": "/react-portfolio/static/js/2.ddedc36e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "86947cf2d1b12e473d1c",
-    "url": "/react-portfolio/static/js/main.d8ca3a35.chunk.js"
+    "revision": "99c79699215b60d6cb95",
+    "url": "/react-portfolio/static/js/main.516ad567.chunk.js"
   },
   {
     "revision": "aff33cef9dbb8787d6b3",
@@ -40,6 +40,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/fft-audio-gif.8266d056.gif"
   },
   {
+    "revision": "617870e422d4b75087cdcf9ff298032e",
+    "url": "/react-portfolio/static/media/github.617870e4.svg"
+  },
+  {
+    "revision": "b986b4fd45fd54c447cd5783082c397f",
+    "url": "/react-portfolio/static/media/gmail.b986b4fd.svg"
+  },
+  {
+    "revision": "619231ff8ec7a6b4d39aede30fa9890e",
+    "url": "/react-portfolio/static/media/linkedin.619231ff.svg"
+  },
+  {
     "revision": "d442f942438a72eb67911bfa683caf63",
     "url": "/react-portfolio/static/media/meet-the-replacements.d442f942.jpg"
   },
@@ -54,5 +66,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f18e976170d5e357783e2c78d00cc7fd",
     "url": "/react-portfolio/static/media/open-road-resized.f18e9761.jpg"
+  },
+  {
+    "revision": "a734a864eba2e3001fbdbf9f5b02d9fc",
+    "url": "/react-portfolio/static/media/twitch.a734a864.svg"
   }
 ]);
