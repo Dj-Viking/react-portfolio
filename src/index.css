@@ -156,7 +156,7 @@ header div{ /*secondary-background container*/
   display: flex;
   align-items: flex-start;
   width: 100%;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 
 .hero{
@@ -231,10 +231,13 @@ header div{ /*secondary-background container*/
 /* about me styling start */
 .about-me {
   padding: 100px 5%;
-  padding-top: 80px;
+  padding-top: 30px;
   width: 100%;
   text-align: center;
   /* clip-path: polygon(0 10%, 37% 0, 100% 10%, 100% 90%, 63% 100%, 0 90%); */
+}
+.about-me-header {
+  font-size: 3vw;
 }
 
 .about-me-flex-row{
@@ -266,6 +269,7 @@ header div{ /*secondary-background container*/
   padding: 30px;
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
+  font-size: 4vw;
 }
 
 .about-me img{
@@ -291,7 +295,7 @@ header div{ /*secondary-background container*/
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 /* project card start */
 
@@ -341,7 +345,6 @@ header div{ /*secondary-background container*/
   margin-bottom: 20px;
   padding-bottom: 20px;
   text-align: center;
-  
 }
 .project-btn {
   cursor: pointer;
@@ -376,6 +379,7 @@ header div{ /*secondary-background container*/
 
 .contact-container {
   margin-bottom: 30%;
+  margin-top: 30px;
 }
 
 
@@ -435,9 +439,38 @@ header div{ /*secondary-background container*/
 /* footer styling start */
 
 .footer {
-  margin-top: 10%;
-  margin-bottom: 5%;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.footer-button-container {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  display: flex; 
+  justify-content: center;
+}
+.footer-btn {
+  cursor: pointer;
+  color: var(--primary-color);
+  background-color: var(--tertiary-color);
+  padding: 15px;
+  border-radius: 10px;
+  transition: 1s;
+  margin: 10px;
+  font-size: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-icon-style {
+  margin-bottom: 3px;
+}
+.footer-btn:hover {
+  transition: 1s;
+  color: rgb(94, 0, 245);
+  background-color: var(--primary-color);
 }
 
 /* footer styling end */
@@ -547,6 +580,9 @@ header div{ /*secondary-background container*/
     margin-left: 5%;
     margin-right: 5%;
   }
+  .hero-flex {
+    padding-bottom: 20%;
+  }
 
   .me-picture {
     width: 160px !important;
@@ -600,6 +636,10 @@ header div{ /*secondary-background container*/
   .me-picture {
     width: 160px !important;
     height: 150px !important;
+  }
+
+  .footer-btn {
+    margin: 5px;
   }
 }
 
