@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8255654d8a81184e0208e351b0d5d502",
+    "revision": "51826dae153ee40e841980f0cde43b01",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "b9662ac833555c0b5c74",
-    "url": "/react-portfolio/static/css/main.60a541fa.chunk.css"
+    "revision": "86947cf2d1b12e473d1c",
+    "url": "/react-portfolio/static/css/main.7a4a159e.chunk.css"
   },
   {
     "revision": "98794a362d01d2e7755c",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/js/2.911921cf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b9662ac833555c0b5c74",
-    "url": "/react-portfolio/static/js/main.717df663.chunk.js"
+    "revision": "86947cf2d1b12e473d1c",
+    "url": "/react-portfolio/static/js/main.d8ca3a35.chunk.js"
   },
   {
     "revision": "aff33cef9dbb8787d6b3",
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "53b406b011cb5380ca466fe78711cead",
     "url": "/react-portfolio/static/media/anders-resume.53b406b0.pdf"
-  },
-  {
-    "revision": "a1fe5dff895d773967cff547dff28f47",
-    "url": "/react-portfolio/static/media/book-club.a1fe5dff.png"
   },
   {
     "revision": "8cb9993a1413c0a9b173be8e3738bef7",
