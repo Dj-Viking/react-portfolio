@@ -47,7 +47,7 @@ function Projects() {
       description: 'Meet The Replacements Orlando Fringe 2018 theatre show LED set piece.',
       imageSrc: 'meet-the-replacements.jpg',
       technologyBadges: [
-        `https://img.shields.io/badge/Arduino-${badgeColors.orange}.svg`,
+        `https://img.shields.io/badge/Arduino-${badgeColors.teal}.svg`,
         `https://img.shields.io/badge/C-${badgeColors.purple}.svg`,
         `https://img.shields.io/badge/C++-${badgeColors.deepPurple}.svg`,
       ],
@@ -64,7 +64,9 @@ function Projects() {
           <section 
             className="project-section"
             key={project.name}
-          > <div className="card-title">
+            id={project.name}
+          > 
+            <div className="card-title">
               <h2 className="card-header">
                 {project.name}
               </h2>
@@ -89,6 +91,8 @@ function Projects() {
                     alt="project badge"
                     src={badge}
                     className="project-badge"
+                    key={badge.split('/')[4].split('-')[0]}
+                    id={badge.split('/')[4].split('-')[0]}
                   >
                   </img>
                 ))
@@ -98,7 +102,8 @@ function Projects() {
                   target="_blank" 
                   href={project.githubLink} 
                   rel="noopener noreferrer"
-                > <button 
+                > 
+                  <button 
                     className="project-btn"
                   > GitHub Repository
                   </button>
@@ -109,7 +114,8 @@ function Projects() {
                     target="_blank" 
                     href={project.deployLink} 
                     rel="noopener noreferrer"
-                  > <button 
+                  > 
+                    <button 
                       className="project-btn"
                     > Deployed App Page
                     </button>
@@ -120,14 +126,31 @@ function Projects() {
           </section>
         ))
       }
-      <a
-        href="https://github.com/dj-viking/repositories"
-        target="_blank"
-        rel="noopener noreferrer"
-      > <button class="project-btn">
-          See More Projects
-        </button>
-      </a>
+      <div className="project-button-container">
+        <a
+          href="https://github.com/dj-viking/repositories"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="project-btn">
+            <img 
+              src={require('../assets/images/github.svg')}
+              height="16"
+              width="16"
+              alt="icon"
+              className="github-icon"
+            /> 
+            See More Projects
+            <img 
+              src={require('../assets/images/github.svg')}
+              height="16"
+              width="16"
+              alt="icon"
+              className="github-icon"
+            /> 
+          </button>
+        </a>  
+      </div>
     </div>
   )
 }
