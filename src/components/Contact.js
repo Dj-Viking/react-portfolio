@@ -163,7 +163,10 @@ function Contact() {
               className="form-textarea"
             />
           </div>
-          <button className="form-button" type="submit">Submit</button>
+          <div className="form-button-container">
+            <button className="form-btn" type="submit">Submit</button>
+            
+          </div>
           {
             errorMessage && 
             (

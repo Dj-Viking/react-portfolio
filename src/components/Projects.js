@@ -60,7 +60,8 @@ function Projects() {
   return (
     <div className="project-flex-column">
       {
-        projects.map(project => (
+        projects.map(project => 
+        (
           <section 
             className="project-section"
             key={project.name}
@@ -86,7 +87,8 @@ function Projects() {
               </div>
               {
                 project.technologyBadges && 
-                project.technologyBadges.map(badge => (
+                project.technologyBadges.map(badge => 
+                (
                   <img
                     alt="project badge"
                     src={badge}

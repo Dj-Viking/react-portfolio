@@ -57,12 +57,14 @@
   - [x] link to deployed app
   - [x] link to github
   - [x] section styling
-  - carousel?? (maybe with react-spring)
-* [] footer - at bottom of all pages
-  - [] icons
-    * [] github 
-    * [] linkedin
-    * [] email
-    * [] twitch
-    * [] section styling
-* [] try react-spring for animations 
+  - [] carousel?? (maybe with react-spring)
+* [x] footer - at bottom of all pages
+  - [x] icons
+    * [x] github 
+    * [x] linkedin
+    * [x] email
+    * [x] twitch
+    * [x] section styling
+* [] try react-spring for animations?
+
+* [] page switching animation? (fadeout-fadein)

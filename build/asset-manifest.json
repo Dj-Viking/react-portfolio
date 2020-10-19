@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.c4c70c7a.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.516ad567.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.516ad567.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.d187d2fa.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.f69bdf8f.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.f69bdf8f.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
-    "static/js/2.ddedc36e.chunk.js": "/react-portfolio/static/js/2.ddedc36e.chunk.js",
-    "static/js/2.ddedc36e.chunk.js.map": "/react-portfolio/static/js/2.ddedc36e.chunk.js.map",
+    "static/js/2.93ea7d4b.chunk.js": "/react-portfolio/static/js/2.93ea7d4b.chunk.js",
+    "static/js/2.93ea7d4b.chunk.js.map": "/react-portfolio/static/js/2.93ea7d4b.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.dca54ebbf16bca667f6d09d1f4f8de3e.js": "/react-portfolio/precache-manifest.dca54ebbf16bca667f6d09d1f4f8de3e.js",
+    "precache-manifest.d983918c11f1101a463a7bddf3b6b8ad.js": "/react-portfolio/precache-manifest.d983918c11f1101a463a7bddf3b6b8ad.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/main.c4c70c7a.chunk.css.map": "/react-portfolio/static/css/main.c4c70c7a.chunk.css.map",
-    "static/js/2.ddedc36e.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.ddedc36e.chunk.js.LICENSE.txt",
+    "static/css/main.d187d2fa.chunk.css.map": "/react-portfolio/static/css/main.d187d2fa.chunk.css.map",
+    "static/js/2.93ea7d4b.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.93ea7d4b.chunk.js.LICENSE.txt",
     "static/media/ME.jpg": "/react-portfolio/static/media/ME.bc25cff4.jpg",
     "static/media/anders-resume.pdf": "/react-portfolio/static/media/anders-resume.53b406b0.pdf",
     "static/media/cube-wave.gif": "/react-portfolio/static/media/cube-wave.8cb9993a.gif",
@@ -27,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.213b1880.js",
-    "static/js/2.ddedc36e.chunk.js",
-    "static/css/main.c4c70c7a.chunk.css",
-    "static/js/main.516ad567.chunk.js"
+    "static/js/2.93ea7d4b.chunk.js",
+    "static/css/main.d187d2fa.chunk.css",
+    "static/js/main.f69bdf8f.chunk.js"
   ]
 }
