@@ -80,7 +80,7 @@ function Projects() {
               </p>
               <div className="border-bottom2"></div>
               <div className="tech-used">
-                Technologies used:  
+                Built using:  
               </div>
               {
                 project.technologyBadges && 
@@ -120,6 +120,14 @@ function Projects() {
           </section>
         ))
       }
+      <a
+        href="https://github.com/dj-viking/repositories"
+        target="_blank"
+        rel="noopener noreferrer"
+      > <button class="project-btn">
+          See More Projects
+        </button>
+      </a>
     </div>
   )
 }

@@ -1,6 +1,6 @@
 :root{
   --primary-color: white;
-  --secondary-color: #4292cccb;
+  --secondary-color: #4292cccb;   /* 3c9bff */
   --tertiary-color: rgb(144, 112, 140); 
 }
 * {
@@ -313,7 +313,7 @@ header div{ /*secondary-background container*/
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   margin: 0 10%;
-  text-align: left;
+  text-align: center;
   padding-left: 10px;
   padding-right: 10px;
 }
