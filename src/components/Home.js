@@ -84,7 +84,6 @@ function Home() {
               </div>
             </div>
             <h2>
-              Anders Ackerman's
             </h2>
             <h3>
               Web &amp; Software Development Portfolio

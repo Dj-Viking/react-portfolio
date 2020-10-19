@@ -8,7 +8,6 @@ function About() {
           About Me
         </h2>
         <img className="me-picture" src={require('../assets/images/ME.jpg')} alt="recent snapshot of me" />
-        <div className="border-right"></div>
       </div>
       <p className="about-p">
         Anders has adventurous ambitions which include a deep passion for Software Development, Music Production, and the Audio Visual Arts. 
