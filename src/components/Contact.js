@@ -116,7 +116,7 @@ function Contact() {
       && 
       formState.message
     ){ 
-      setSuccessMessage('Thank you for submission!');
+      setSuccessMessage('Thank you for your submission!');
       setTimeout(() => {
         setSuccessMessage('');
       }, 3000);
