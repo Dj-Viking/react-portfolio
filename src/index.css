@@ -488,7 +488,7 @@ header div{ /*secondary-background container*/
 .footer-btn {
   cursor: pointer;
   color: var(--primary-color);
-  background-color: var(--tertiary-color);
+  background-color: #44d363;
   padding: 15px;
   border-radius: 10px;
   transition: 1s;
