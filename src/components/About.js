@@ -7,7 +7,21 @@ function About() {
         <h2>
           About Me
         </h2>
-        <img className="me-picture" src={require('../assets/images/ME.jpg')} alt="recent snapshot of me" />
+        {
+          process.env.NODE_ENV === 'production'
+          ?
+          (
+            <>
+              <img className="me-picture" src={require(`../static/media/${/ME\.\w+\.jpg/}`)} alt="recent snapshot of me" />
+            </>
+          )
+          :
+          (
+            <>
+              <img className="me-picture" src={require(`../assets/images/ME.jpg`)} alt="recent snapshot of me" /> 
+            </>
+          )
+        }
       </div>
       <p className="about-p">
         Anders has adventurous ambitions which include a deep passion for Software Development, Music Production, and the Audio Visual Arts. 

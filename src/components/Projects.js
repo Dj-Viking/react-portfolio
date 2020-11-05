@@ -2,6 +2,11 @@ import React from 'react';
 import badgeColors from '../lib/badgeColors.js';
 
 function Projects() {
+  const imageProdSources = []
+  //need to conditionalize if node env is production to set the imageSrc properties to get from build folder
+  if (process.env.NODE_ENV === 'production') {
+    
+  }
 
   const projects = [
     {
