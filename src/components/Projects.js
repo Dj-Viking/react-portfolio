@@ -1,5 +1,6 @@
 import React from 'react';
 import badgeColors from '../lib/badgeColors.js';
+import CubeWave from '../assets/images/cube-wave.gif';
 
 function Projects() {
   const imageProdSources = []
@@ -12,7 +13,7 @@ function Projects() {
     {
       name: 'Cube Wave',
       description: 'p5.js sketch of an animated 3D cube.',
-      imageSrc: 'cube-wave.gif',
+      imageSrc: CubeWave,
       technologyBadges: [
         `https://img.shields.io/badge/p5.JS-${badgeColors.blue}.svg`,
         `https://img.shields.io/badge/HTML_Canvas-${badgeColors.orange}.svg`,
