@@ -23,7 +23,7 @@ function Header(props) {
                   (
                     <a
                       target="_blank" 
-                      href="https://docs.google.com/document/d/1qbMSl29EXZBkvwZH6blgTdRlpMsVLCYwTo5eT0pKOQc/edit"
+                      href="https://docs.google.com/document/d/1qbMSl29EXZBkvwZH6blgTdRlpMsVLCYwTo5eT0pKOQc/edit?usp=sharing"
                       rel="noreferrer noopener"
                     > {tab}
                     </a>
