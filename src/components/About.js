@@ -1,5 +1,8 @@
 import React from 'react';
 
+//import picture
+import Me from '../assets/images/ME.jpg';
+
 function About() {
   return (
     <section className="about-me">
@@ -12,8 +15,12 @@ function About() {
           ?
           (
             <>
-              <img className="me-picture" src={require(`../static/media/${/ME\.\w+\.jpg/}`)} alt="recent snapshot of me" />
-            </>
+              <div>test put the picture here</div>
+              <img 
+                className="me-picture" 
+                src={Me} alt="recent snapshot of me" 
+              />
+            </> 
           )
           :
           (
