@@ -1,18 +1,19 @@
 import React from 'react';
 import badgeColors from '../lib/badgeColors.js';
 
+//IMAGE IMPORTS
+import CubeWave from '../assets/images/cube-wave.gif';
+import FFT from '../assets/images/fft-audio-gif.gif';
+import Nomadica from '../assets/images/nomadica-img.png';
+import MeetTheReplacements from '../assets/images/meet-the-replacements.jpg';
+
 function Projects() {
-  const imageProdSources = []
-  //need to conditionalize if node env is production to set the imageSrc properties to get from build folder
-  if (process.env.NODE_ENV === 'production') {
-    
-  }
 
   const projects = [
     {
       name: 'Cube Wave',
       description: 'p5.js sketch of an animated 3D cube.',
-      imageSrc: 'cube-wave.gif',
+      imageSrc: CubeWave,
       technologyBadges: [
         `https://img.shields.io/badge/p5.JS-${badgeColors.blue}.svg`,
         `https://img.shields.io/badge/HTML_Canvas-${badgeColors.orange}.svg`,
@@ -24,7 +25,7 @@ function Projects() {
     {
       name: 'Nomadica',
       description: 'Front-End Application to Search for Job Salaries by Country Name.',
-      imageSrc: 'nomadica-img.png',
+      imageSrc: Nomadica,
       technologyBadges: [
         `https://img.shields.io/badge/Teleport_API-${badgeColors.orange}.svg`,
         `https://img.shields.io/badge/Rates_API-${badgeColors.orange}.svg`,
@@ -37,7 +38,7 @@ function Projects() {
     {
       name: 'FFT Audio Visualizer',
       description: 'p5.js sketch also using p5.sound.js library to create a JavaScript based audio visualizer that runs in the browser from a node instance localhost.',
-      imageSrc: 'fft-audio-gif.gif',
+      imageSrc: FFT,
       technologyBadges: [
         `https://img.shields.io/badge/Node_JS-${badgeColors.green}.svg`,
         `https://img.shields.io/badge/Express_JS-${badgeColors.blue}.svg`,
@@ -50,7 +51,7 @@ function Projects() {
     {
       name: 'Meet The Replacements',
       description: 'Meet The Replacements Orlando Fringe 2018 theatre show LED set piece.',
-      imageSrc: 'meet-the-replacements.jpg',
+      imageSrc: MeetTheReplacements,
       technologyBadges: [
         `https://img.shields.io/badge/Arduino-${badgeColors.teal}.svg`,
         `https://img.shields.io/badge/C-${badgeColors.purple}.svg`,
@@ -78,7 +79,7 @@ function Projects() {
               </h2>
               <img 
                 className="work-img"
-                src={require(`../assets/images/${project.imageSrc}`)} 
+                src={`${project.imageSrc}`} 
                 alt="project snapshot" 
               />
             </div>

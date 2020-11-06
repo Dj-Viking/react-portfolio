@@ -1,6 +1,12 @@
 import React from 'react';
 
+
+//import picture
+import Me from '../assets/images/ME.jpg';
+
 function About() {
+  console.log("\x1b[33m", "checking node env process", "\x1b[00m");
+  console.log(process.env.NODE_ENV);
   return (
     <section className="about-me">
       <div className="about-me-flex-row">
@@ -12,8 +18,12 @@ function About() {
           ?
           (
             <>
-              <img className="me-picture" src={require(`../static/media/${/ME\.\w+\.jpg/}`)} alt="recent snapshot of me" />
-            </>
+              <div>test put the picture here</div>
+              <img 
+                className="me-picture" 
+                src={Me} alt="recent snapshot of me" 
+              />
+            </> 
           )
           :
           (
