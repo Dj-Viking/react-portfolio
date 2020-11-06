@@ -1,9 +1,12 @@
 import React from 'react';
 
+
 //import picture
 import Me from '../assets/images/ME.jpg';
 
 function About() {
+  console.log("\x1b[33m", "checking node env process", "\x1b[00m");
+  console.log(process.env.NODE_ENV);
   return (
     <section className="about-me">
       <div className="about-me-flex-row">
