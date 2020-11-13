@@ -6,10 +6,25 @@ import CubeWave from '../assets/images/cube-wave.gif';
 import FFT from '../assets/images/fft-audio-gif.gif';
 import Nomadica from '../assets/images/nomadica-img.png';
 import MeetTheReplacements from '../assets/images/meet-the-replacements.jpg';
+import LEDMatrix from '../assets/images/led-matrix-gif.gif'
+import GithubIcon from '../assets/images/github.svg'
 
 function Projects() {
 
   const projects = [
+    {
+      name: 'LED Art Matrix',
+      description: 'MERN-stack application LED Matrix emulator using SCSS, React, custom tooling to generate stylesheets',
+      imageSrc: LEDMatrix,
+      technologyBadges: [
+        `https://img.shields.io/badge/React.js-${badgeColors.teal}.svg`,
+        `https://img.shields.io/badge/SCSS-${badgeColors.hotPink}.svg`,
+        `https://img.shields.io/badge/MERN_stack-${badgeColors.blue}.svg`,
+        `https://img.shields.io/badge/Apollo_GraphQL-${badgeColors.green}.svg`
+      ],
+      githubLink: 'https://github.com/Dj-Viking/LED-Art-matrix',
+      deployLink: 'https://led-matrices.herokuapp.com',
+    },
     {
       name: 'Cube Wave',
       description: 'p5.js sketch of an animated 3D cube.',
@@ -142,7 +157,7 @@ function Projects() {
         >
           <button className="project-btn">
             <img 
-              src={require('../assets/images/github.svg')}
+              src={GithubIcon}
               height="16"
               width="16"
               alt="icon"
@@ -150,7 +165,7 @@ function Projects() {
             /> 
             See More Projects
             <img 
-              src={require('../assets/images/github.svg')}
+              src={GithubIcon}
               height="16"
               width="16"
               alt="icon"

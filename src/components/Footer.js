@@ -1,25 +1,31 @@
 import React from 'react';
 
+//IMAGE IMPORTS
+import GitHubIcon from '../assets/images/github.svg'
+import LinkedInIcon from '../assets/images/linkedin.svg'
+import GmailIcon from '../assets/images/gmail.svg'
+import TwitchIcon from '../assets/images/twitch.svg'
+
 function Footer() {
   const icons = [
     {
       name: 'GitHub',
-      src: 'github.svg',
+      src: GitHubIcon,
       link: 'https://github.com/dj-viking'
     },
     {
       name: 'LinkedIn',
-      src: 'linkedin.svg',
+      src: LinkedInIcon,
       link: 'https://www.linkedin.com/in/anders-ackerman-b1055061/'
     },
     {
       name: 'Email',
-      src: 'gmail.svg',
+      src: GmailIcon,
       link: 'mailto:anders.swedishviking@gmail.com'
     },
     {
       name: 'Twitch',
-      src: 'twitch.svg',
+      src: TwitchIcon,
       link: 'https://twitch.tv/djvikingsintheroad'
     },
   ];
@@ -45,7 +51,7 @@ function Footer() {
             >
               <button className="footer-btn">
                 <img 
-                  src={require(`../assets/images/${icon.src}`)}
+                  src={icon.src}
                   height="24"
                   width="24"
                   alt={icon.name} 
