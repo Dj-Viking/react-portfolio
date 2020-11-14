@@ -38,20 +38,24 @@ function Footer() {
   return (
     <div className="footer">
       {
-        icons.map(icon => 
+        icons.map((icon, index) => 
         (
-          <div className="footer-button-container">
+          <div 
+            key={`${icon.name}${index + 2}`}
+            className="footer-button-container"
+          >
             <a
               href={`${icon.link}`}
               target="_blank"
               rel="noreferrer noopener"
-              key={icon.name}
+              key={`${icon.name}${index + 1}`}
               id={icon.name}
               style={aStyle}
             >
               <button className="footer-btn">
                 <img 
                   src={icon.src}
+                  key={`${icon.name}${index}`}
                   height="24"
                   width="24"
                   alt={icon.name} 

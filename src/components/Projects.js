@@ -8,6 +8,7 @@ import Nomadica from '../assets/images/nomadica-img.png';
 import MeetTheReplacements from '../assets/images/meet-the-replacements.jpg';
 import LEDMatrix from '../assets/images/led-matrix-gif.gif'
 import GithubIcon from '../assets/images/github.svg'
+import BookClub from '../assets/images/book-club.png';
 
 function Projects() {
 
@@ -74,6 +75,18 @@ function Projects() {
       ],
       githubLink: 'https://github.com/Dj-Viking/meetTheReplacements',
       // deployLink: 'https://dj-viking.github.io/Nomadica/',
+    },
+    {
+      name: 'Book Club',
+      description: 'Content Management web application where users can log in, save books, and join book clubs to see what other fellow friends and readers are currently reading.',
+      imageSrc: BookClub,
+      technologyBadges: [
+        `https://img.shields.io/badge/Express-${badgeColors.teal}.svg`,
+        `https://img.shields.io/badge/Handlebars.js-${badgeColors.orange}.svg`,
+        `https://img.shields.io/badge/MySQL_Sequelize-${badgeColors.blue}.svg`,
+      ],
+      githubLink: 'https://github.com/Dj-Viking/book-club',
+      deployLink: 'https://dj-viking.github.io/book-club',
     },
   ]
 
