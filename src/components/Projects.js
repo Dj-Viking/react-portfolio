@@ -78,7 +78,7 @@ function Projects() {
     },
     {
       name: 'Book Club',
-      description: 'Content Management web application where users can log in, save books, and join book clubs to see what other fellow friends and readers are currently reading.',
+      description: 'Content Management web application where users can log in, search for books, save books to their library, and join book clubs to see what other fellow friends and readers are currently reading in their library.',
       imageSrc: BookClub,
       technologyBadges: [
         `https://img.shields.io/badge/Express-${badgeColors.teal}.svg`,
