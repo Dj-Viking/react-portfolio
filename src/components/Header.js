@@ -1,7 +1,13 @@
 import React from 'react';
 
 function Header(props) {
-  const tabs = ['Home', 'About', 'Projects', 'Resume', 'Contact'];
+  const tabs = [
+    'Home', 
+    'About', 
+    'Projects', 
+    'Resume', 
+   // 'Contact'
+  ];
   const {
     currentTab,
     setTab

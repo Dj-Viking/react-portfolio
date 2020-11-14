@@ -1,7 +1,12 @@
 import React from 'react';
 
 function Nav(props) {
-  const tabs = ['Home', 'About', 'Projects', 'Contact'];
+  const tabs = [
+    'Home', 
+    'About', 
+    'Projects', 
+    //'Contact'
+  ];
   const {
     currentTab,
     setTab
