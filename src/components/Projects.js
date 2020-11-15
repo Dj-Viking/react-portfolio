@@ -86,7 +86,7 @@ function Projects() {
         `https://img.shields.io/badge/MySQL_Sequelize-${badgeColors.blue}.svg`,
       ],
       githubLink: 'https://github.com/Dj-Viking/book-club',
-      deployLink: 'https://dj-viking.github.io/book-club',
+      deployLink: 'https://book-sequelizers.herokuapp.com/',
     },
   ]
 
