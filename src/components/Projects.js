@@ -88,7 +88,12 @@ function Projects() {
       githubLink: 'https://github.com/Dj-Viking/book-club',
       deployLink: 'https://book-sequelizers.herokuapp.com/',
     },
-  ]
+  ];
+
+  const extraMarginStyle = {
+    marginRight: '10px',
+    marginLeft: '10px'
+  };
 
   // const testHref = '/'
   return (
@@ -141,6 +146,7 @@ function Projects() {
                 > 
                   <button 
                     className="project-btn"
+                    style={extraMarginStyle}
                   > GitHub Repository
                   </button>
                 </a>
@@ -153,6 +159,7 @@ function Projects() {
                   > 
                     <button 
                       className="project-btn"
+                      style={extraMarginStyle}
                     > Deployed App Page
                     </button>
                   </a>
@@ -188,7 +195,7 @@ function Projects() {
         </a>  
       </div>
     </div>
-  )
+  );
 }
 
 export default Projects;
