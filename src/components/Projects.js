@@ -49,7 +49,7 @@ function Projects() {
         `https://img.shields.io/badge/Tailwind_CSS-${badgeColors.purple}.svg`,
       ],
       githubLink: 'https://github.com/Dj-Viking/Nomadica',
-      deployLink: 'https://dj-viking.github.io/Nomadica/',
+      deployLink: 'https://nomadica-app.herokuapp.com/',
     },
     {
       name: 'FFT Audio Visualizer',
