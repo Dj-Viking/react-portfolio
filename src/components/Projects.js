@@ -171,7 +171,7 @@ function Projects() {
       }
       <div className="project-button-container">
         <a
-          href="https://github.com/dj-viking/repositories"
+          href="https://github.com/Dj-Viking"
           target="_blank"
           rel="noopener noreferrer"
         >
