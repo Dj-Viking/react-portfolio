@@ -295,7 +295,7 @@ function Projects() {
         key={(Math.random() * 10000).toString() + "ggaerstegts"}
       >
         <a
-          href="https://github.com/dj-viking/repositories"
+          href="https://github.com/Dj-Viking"
           target="_blank"
           key={(Math.random() * 10000).toString() + "hrthest"}
           rel="noopener noreferrer"
