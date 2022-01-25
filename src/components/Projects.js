@@ -18,10 +18,19 @@ function Projects() {
       description: 'MERN-stack application LED Matrix emulator using SCSS, React, custom tooling to generate stylesheets',
       imageSrc: LEDMatrix,
       technologyBadges: [
-        `https://img.shields.io/badge/React.js-${badgeColors.teal}.svg`,
-        `https://img.shields.io/badge/SCSS-${badgeColors.hotPink}.svg`,
-        `https://img.shields.io/badge/MERN_stack-${badgeColors.blue}.svg`,
-        `https://img.shields.io/badge/Apollo_GraphQL-${badgeColors.green}.svg`
+        {
+          isLink: true,
+          link: "https://app.codecov.io/gh/Dj-Viking/LED-Art-matrix",
+          src: `https://codecov.io/gh/Dj-Viking/LED-Art-matrix/branch/main/graph/badge.svg?token=6KIXEPI5DA`,
+        },
+        {
+          isLink: false,
+          src: `https://img.shields.io/badge/React.js-${badgeColors.teal}.svg`,
+        },
+        {
+          isLink: false,
+          src: `https://img.shields.io/badge/TypeScript-${badgeColors.blue}.svg`,
+        }
       ],
       githubLink: 'https://github.com/Dj-Viking/LED-Art-matrix',
       deployLink: 'https://led-matrices.herokuapp.com',
@@ -31,9 +40,19 @@ function Projects() {
       description: 'p5.js sketch of an animated 3D cube.',
       imageSrc: CubeWave,
       technologyBadges: [
-        `https://img.shields.io/badge/p5.JS-${badgeColors.blue}.svg`,
-        `https://img.shields.io/badge/HTML_Canvas-${badgeColors.orange}.svg`,
-        `https://img.shields.io/badge/JavaScript-${badgeColors.yellow}.svg`
+        {
+          isLink: false,
+          src: `https://img.shields.io/badge/p5.JS-${badgeColors.blue}.svg`,
+        },
+        {
+          isLink: false,
+          src: `https://img.shields.io/badge/HTML_Canvas-${badgeColors.orange}.svg`,
+        },
+        {
+          isLink: false,
+          src: `https://img.shields.io/badge/JavaScript-${badgeColors.yellow}.svg`
+        },
+        
       ],
       githubLink: 'https://github.com/dj-viking/cube-wave',
       deployLink: 'https://dj-viking.github.io/cube-wave/',
@@ -43,10 +62,18 @@ function Projects() {
       description: 'Front-End Application to Search for Job Salaries by Country Name.',
       imageSrc: Nomadica,
       technologyBadges: [
-        `https://img.shields.io/badge/Teleport_API-${badgeColors.orange}.svg`,
-        `https://img.shields.io/badge/Rates_API-${badgeColors.orange}.svg`,
-        `https://img.shields.io/badge/Country_Flags_API-${badgeColors.orange}.svg`,
-        `https://img.shields.io/badge/Tailwind_CSS-${badgeColors.purple}.svg`,
+        {
+          isLink: false,
+          src: `https://img.shields.io/badge/Teleport_API-${badgeColors.orange}.svg`,
+        },
+        {
+          isLink: false,
+          src: `https://img.shields.io/badge/Rates_API-${badgeColors.orange}.svg`,
+        },
+        {
+          isLink: false,
+          src: `https://img.shields.io/badge/Tailwind_CSS-${badgeColors.purple}.svg`,
+        },
       ],
       githubLink: 'https://github.com/Dj-Viking/Nomadica',
       deployLink: 'https://nomadica-app.herokuapp.com/',
@@ -56,10 +83,22 @@ function Projects() {
       description: 'p5.js sketch also using p5.sound.js library to create a JavaScript based audio visualizer that runs in the browser from a node instance localhost.',
       imageSrc: FFT,
       technologyBadges: [
-        `https://img.shields.io/badge/Node_JS-${badgeColors.green}.svg`,
-        `https://img.shields.io/badge/Express_JS-${badgeColors.blue}.svg`,
-        `https://img.shields.io/badge/p5_JS-${badgeColors.purple}.svg`,
-        `https://img.shields.io/badge/p5.sound_JS-${badgeColors.deepPurple}.svg`,
+        {
+          isLink: false,
+          src: `https://img.shields.io/badge/Node_JS-${badgeColors.green}.svg`,
+        },
+        {
+          isLink: false,
+          src: `https://img.shields.io/badge/Express_JS-${badgeColors.blue}.svg`,
+        },
+        {
+          isLink: false,
+          src: `https://img.shields.io/badge/p5_JS-${badgeColors.purple}.svg`,
+        },
+        {
+          isLink: false,
+          src: `https://img.shields.io/badge/p5.sound_JS-${badgeColors.deepPurple}.svg`,
+        }
       ],
       githubLink: 'https://github.com/Dj-Viking/fft-audio-visualizer',
       // deployLink: 'https://dj-viking.github.io/Nomadica/',
@@ -69,9 +108,18 @@ function Projects() {
       description: 'Meet The Replacements Orlando Fringe 2018 theatre show LED set piece.',
       imageSrc: MeetTheReplacements,
       technologyBadges: [
-        `https://img.shields.io/badge/Arduino-${badgeColors.teal}.svg`,
-        `https://img.shields.io/badge/C-${badgeColors.purple}.svg`,
-        `https://img.shields.io/badge/C++-${badgeColors.deepPurple}.svg`,
+        {
+          isLink: false,
+          src: `https://img.shields.io/badge/Arduino-${badgeColors.teal}.svg`,
+        },
+        {
+          isLink: false,
+          src: `https://img.shields.io/badge/C-${badgeColors.purple}.svg`,
+        },
+        {
+          isLink: false,
+          src: `https://img.shields.io/badge/C++-${badgeColors.deepPurple}.svg`,
+        },
       ],
       githubLink: 'https://github.com/Dj-Viking/meetTheReplacements',
       // deployLink: 'https://dj-viking.github.io/Nomadica/',
@@ -81,9 +129,18 @@ function Projects() {
       description: 'Content Management web application where users can log in, search for books, save books to their library, and join book clubs to see what other fellow friends and readers are currently reading in their library.',
       imageSrc: BookClub,
       technologyBadges: [
-        `https://img.shields.io/badge/Express-${badgeColors.teal}.svg`,
-        `https://img.shields.io/badge/Handlebars.js-${badgeColors.orange}.svg`,
-        `https://img.shields.io/badge/MySQL_Sequelize-${badgeColors.blue}.svg`,
+        {
+          isLink: false,
+          src: `https://img.shields.io/badge/Express-${badgeColors.teal}.svg`,
+        },
+        {
+          isLink: false,
+          src: `https://img.shields.io/badge/Handlebars.js-${badgeColors.orange}.svg`,
+        },
+        {
+          isLink: false,
+          src: `https://img.shields.io/badge/MySQL_Sequelize-${badgeColors.blue}.svg`,
+        },
       ],
       githubLink: 'https://github.com/Dj-Viking/book-club',
       deployLink: 'https://book-sequelizers.herokuapp.com/',
@@ -97,70 +154,134 @@ function Projects() {
 
   // const testHref = '/'
   return (
-    <div className="project-flex-column">
+    <div className="project-flex-column" key={(Math.random() * 10000).toString() + "dkfjkdfjkd"}>
       {
         projects.map(project => 
         (
+
           <section 
             className="project-section"
-            key={project.name}
-            id={project.name}
+            key={(Math.random() * 10000).toString() + "dkfjkdfjkd"}
+            id={(Math.random() * 10000).toString() + "dkfjkdfjkd"}
           > 
-            <div className="card-title">
-              <h2 className="card-header">
-                {project.name}
+            <div 
+              key={(Math.random() * 10000).toString() + "asdfas"} 
+              className="card-title"
+            >
+              <h2 
+                className="card-header" 
+                key={(Math.random() * 10000).toString() + "asfasdfasdfasd"}
+              >
+                <span 
+                  key={(Math.random() * 10000).toString() + "asfasdfasdfasd"}
+                >
+                  {project.name}
+                </span>
               </h2>
-              <img 
+              <img
+                key={(Math.random() * 10000).toString() + "asdfasfadsfasdfadsfdsadfs"} 
                 className="work-img"
                 src={`${project.imageSrc}`} 
                 alt="project snapshot" 
               />
             </div>
-            <div className="card-description">
-              <p className="project-description">
-                {project.description}
+            <div 
+              className="card-description" 
+              key={(Math.random() * 10000).toString() + "adfasdfadsfaxfxaxccvasdsafads"}
+            >
+              <p 
+                className="project-description" 
+                key={(Math.random() * 10000).toString() + "asfeqw34fqwfaf"}
+              >
+                <span
+                  key={(Math.random() * 10000).toString() + "aeo;ihjfgaeirpo8gj"}
+                >
+                  {project.description}
+                </span>
               </p>
-              <div className="border-bottom2"></div>
-              <div className="tech-used">
-                Built using:  
+              <div 
+                className="border-bottom2" 
+                key={(Math.random() * 10000).toString() + "234tq fadf"}
+              ></div>
+              <div 
+                className="tech-used" 
+                key={(Math.random() * 10000).toString() + "q3y45srthaerst"}
+              >
+                <span 
+                  key={(Math.random() * 10000).toString() + "eghrstdhrthrstehrty"}
+                >
+                  Built using:
+                </span>  
               </div>
               {
                 project.technologyBadges && 
-                project.technologyBadges.map(badge => 
-                (
-                  <img
-                    alt="project badge"
-                    src={badge}
-                    className="project-badge"
-                    key={badge.split('/')[4].split('-')[0]}
-                    id={badge.split('/')[4].split('-')[0]}
-                  >
-                  </img>
-                ))
+                project.technologyBadges.map(badge => {
+                  if (badge.isLink) {
+                    return (
+                      <a 
+                        href={badge.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        key={(Math.random() * 10000).toString() + " wegpr[idkjl;'fvga"}
+                      >
+                        <img 
+                          alt="project badge"
+                          src={badge.src}
+                          className="project badge"
+                          key={(Math.random() * 10000).toString() + "q3y46rsw4hjaew4w4"}
+                          id={(Math.random() * 102032).toString() + "h5rstwnssbnthberst"}
+                        />
+                      </a> 
+                    )
+                  } else {
+                    return (
+                      <img
+                        alt="project badge"
+                        src={badge.src}
+                        className="project-badge"
+                        key={(Math.random() * 1029329).toString() + "qy34hyw53nsaben"}
+                        id={(Math.random() * 1029329).toString() + "jqw3hu5aersw435ejntaejnstwa"}
+                      />
+                    )
+                  }
+                })
               }
-              <div className="project-button-container">
+              <div 
+                className="project-button-container" 
+                key={(Math.random() * 10000).toString() + "jwaehtw4seghqrwa3"}
+              >
                 <a 
                   target="_blank" 
                   href={project.githubLink} 
                   rel="noopener noreferrer"
+                  key={(Math.random() * 10000).toString() + "w34hj5ehjnsta"}
                 > 
                   <button 
                     className="project-btn"
+                    key={(Math.random() * 10000).toString() + "ehjw453ehrstw345ehjstw4eht345sw"}
                     style={extraMarginStyle}
-                  > GitHub Repository
+                  > 
+                    <span
+                      key={(Math.random() * 10000).toString() + "ghjepw903"}
+                    >
+                      GitHub Repository
+                    </span>
                   </button>
                 </a>
                 {
                   project.deployLink &&
                   <a 
+                    key={(Math.random() * 10000).toString() + "grt4gt34aegrtw345aegrtw345"}
                     target="_blank" 
                     href={project.deployLink} 
                     rel="noopener noreferrer"
                   > 
                     <button 
+                      key={(Math.random() * 10000).toString() + "t4egrsdegrstegrst"}
                       className="project-btn"
                       style={extraMarginStyle}
-                    > Deployed App Page
+                    > 
+                      Deployed App Page
                     </button>
                   </a>
                 }
@@ -169,22 +290,35 @@ function Projects() {
           </section>
         ))
       }
-      <div className="project-button-container">
+      <div 
+        className="project-button-container" 
+        key={(Math.random() * 10000).toString() + "ggaerstegts"}
+      >
         <a
           href="https://github.com/dj-viking/repositories"
           target="_blank"
+          key={(Math.random() * 10000).toString() + "hrthest"}
           rel="noopener noreferrer"
         >
-          <button className="project-btn">
+          <button 
+            className="project-btn" 
+            key={(Math.random() * 10000).toString() + "behtehteghreghrswaeghrsta"}
+          >
             <img 
               src={GithubIcon}
+              key={(Math.random() * 10000).toString() + "eghrstdhrthrstehrty"}
               height="16"
               width="16"
               alt="icon"
               className="github-icon"
             /> 
-            See More Projects
+            <span 
+              key={(Math.random() * 10000).toString() + "afhksujap;fiuvghwaerp9g"}
+            >
+              See More Projects
+            </span>
             <img 
+              key={(Math.random() * 10000).toString() + "eghrstehsteghrs"}
               src={GithubIcon}
               height="16"
               width="16"
