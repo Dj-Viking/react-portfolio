@@ -15,7 +15,7 @@ function Projects() {
   const projects = [
     {
       name: 'LED Art Matrix',
-      description: 'MERN-stack application LED Matrix emulator using SCSS, React, custom tooling to generate stylesheets',
+      description: 'MERN-stack application LED Matrix emulator build with React, custom tooling to dynamically generate stylesheets',
       imageSrc: LEDMatrix,
       technologyBadges: [
         {
@@ -101,7 +101,6 @@ function Projects() {
         }
       ],
       githubLink: 'https://github.com/Dj-Viking/fft-audio-visualizer',
-      // deployLink: 'https://dj-viking.github.io/Nomadica/',
     },
     {
       name: 'Meet The Replacements',
@@ -122,7 +121,6 @@ function Projects() {
         },
       ],
       githubLink: 'https://github.com/Dj-Viking/meetTheReplacements',
-      // deployLink: 'https://dj-viking.github.io/Nomadica/',
     },
     {
       name: 'Book Club',
