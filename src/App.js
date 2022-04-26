@@ -1,9 +1,8 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import Header from './components/Header.js';
 import Home from './components/Home.js';
 import About from './components/About.js';
 import Projects from './components/Projects.js';
-import Resume from './components/Resume.js';
 import Footer from './components/Footer.js';
 import Contact from './components/Contact.js';
 import './index.css';
@@ -16,8 +15,6 @@ function App() {
         return <About />;
       case 'Projects':
         return <Projects />;
-      case 'Resume':
-        return <Resume />;
       case 'Contact':
         return <Contact />;
       default:
@@ -28,7 +25,7 @@ function App() {
   return (
 
     <div className="App">
-      <Header 
+      <Header
         currentTab={currentTab}
         setTab={setTab}
       />

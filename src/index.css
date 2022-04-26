@@ -1,8 +1,10 @@
-:root{
+:root {
   --primary-color: white;
-  --secondary-color: #4292cccb;   /* 3c9bff */
-  --tertiary-color: rgb(144, 112, 140); 
+  --secondary-color: #4292cccb;
+  /* 3c9bff */
+  --tertiary-color: rgb(144, 112, 140);
 }
+
 * {
   margin: 0;
   padding-top: 0;
@@ -13,29 +15,30 @@
 #root {
   width: 100%;
 }
+
 .App {
   width: 100%;
 }
 
-body{
+body {
   z-index: 9999;
   background-color: var(--secondary-color);
 }
 
-.flex-row{
+.flex-row {
   display: flex;
   border-bottom: 3px solid var(--tertiary-color);
   padding-bottom: 60px;
 }
 
 /* header styling start */
-header{
+header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   background-image: url('./assets/images/open-road-resized.jpg');
   background-position: 80%;
-  background-size:cover;
+  background-size: cover;
   background-attachment: fixed;
   z-index: 9999;
   padding: 20px 35px;
@@ -44,7 +47,7 @@ header{
   /* clip-path: polygon(0 9%, 37% 0, 100% 14%, 100% 90%, 24% 100%, 0 90%); */
 }
 
-header h1{
+header h1 {
   padding: 11px 10px;
   color: var(--primary-color);
   background-color: var(--secondary-color);
@@ -52,24 +55,22 @@ header h1{
   z-index: 9999;
   text-shadow: 0 0 10px #90708C;
   transition: 1s;
+  cursor: auto;
 }
 
-header h1:hover{
+header h1:hover {
   color: var(--secondary-color);
   background-color: var(--primary-color);
-  border-top-right-radius: 0px;
-  border-bottom-left-radius: 0px;
   transition: 1s;
-  
 }
 
-header a{
+header a {
   padding: 0 30px;
   text-decoration: none;
   color: var(--primary-color);
 }
 
-header nav ul li{
+header nav ul li {
   background-color: var(--secondary-color);
   border-radius: 25px;
   border-left: 10px;
@@ -77,30 +78,30 @@ header nav ul li{
   transition: 1s;
 }
 
-header nav ul li:hover{
+header nav ul li:hover {
   transition: 1s;
   background-color: var(--primary-color);
 }
 
-header nav ul li a:hover{
+header nav ul li a:hover {
   color: var(--secondary-color);
   transition: .5s;
 }
 
-header h1 a{
+header h1 a {
   font-weight: bold;
   font-size: 36px;
   color: var(--primary-color);
   text-decoration: none;
 }
 
-header nav{
+header nav {
   padding-top: 10px;
   z-index: 9999;
 }
 
 header nav ul {
-  padding: 10px;  
+  padding: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -125,8 +126,9 @@ header nav ul li a {
   border-radius: 25px;
 }
 
-header div{ /*secondary-background container*/
-  
+header div {
+  /*secondary-background container*/
+
   background-position: 80%;
   z-index: 9998;
   position: absolute;
@@ -134,13 +136,13 @@ header div{ /*secondary-background container*/
   right: 0px;
 }
 
-.secondary-background{
+.secondary-background {
   display: flex;
-  content: "";  
-  padding: 30px 30px 35px 30px;  
+  content: "";
+  padding: 30px 30px 35px 30px;
   background-image: url('./assets/images/mountains-resized.jpg');
   background-position: 50%;
-  background-size:cover;
+  background-size: cover;
   background-attachment: fixed;
   opacity: .6;
   z-index: 9998;
@@ -148,10 +150,11 @@ header div{ /*secondary-background container*/
   margin-left: 35px;
   margin-right: 35px;
 }
+
 /* header styling end */
 
 /* hero aka home section styling start */
-.hero-flex{
+.hero-flex {
   justify-content: center;
   display: flex;
   align-items: flex-start;
@@ -159,7 +162,7 @@ header div{ /*secondary-background container*/
   padding-bottom: 5%;
 }
 
-.hero{
+.hero {
   height: 10%;
   background-image: url('./assets/images/open-road-resized.jpg');
   background-position: 80%;
@@ -174,7 +177,7 @@ header div{ /*secondary-background container*/
   clip-path: polygon(0 0%, 100% 0, 100% 0%, 100% 90%, 50% 100%, 0 90%);
 }
 
-.hero-title{
+.hero-title {
   cursor: crosshair;
   background-color: var(--secondary-color);
   color: var(--primary-color);
@@ -216,7 +219,7 @@ header div{ /*secondary-background container*/
 #canvas-div {
   position: relative;
   width: 100%;
-  height:100%;
+  height: 100%;
   display: flex;
   justify-content: center;
 }
@@ -231,6 +234,7 @@ header div{ /*secondary-background container*/
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
+
 /* hero aka home section styling end */
 
 /* about me styling start */
@@ -241,17 +245,19 @@ header div{ /*secondary-background container*/
   text-align: center;
   /* clip-path: polygon(0 10%, 37% 0, 100% 10%, 100% 90%, 63% 100%, 0 90%); */
 }
+
 .about-me-header {
   font-size: 3vw;
 }
 
-.about-me-flex-row{
+.about-me-flex-row {
   display: flex;
   border-bottom: 5px groove var(--secondary-color);
   padding-bottom: 60px;
   justify-content: center;
 }
-.about-me-flex-row h2{
+
+.about-me-flex-row h2 {
   font-size: 2.5vw;
 }
 
@@ -266,7 +272,7 @@ header div{ /*secondary-background container*/
   font-size: 4vw;
 }
 
-.about-me h2{
+.about-me h2 {
   color: var(--primary-color);
   text-shadow: 0 0 10px black;
   margin-right: 0;
@@ -279,7 +285,7 @@ header div{ /*secondary-background container*/
   box-shadow: 5px 4px 5px #000000;
 }
 
-.about-me img{
+.about-me img {
   margin-right: 60px;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
@@ -305,6 +311,7 @@ header div{ /*secondary-background container*/
   text-align: center;
   margin-top: 30px;
 }
+
 /* project card start */
 
 .work-img {
@@ -333,27 +340,33 @@ header div{ /*secondary-background container*/
   padding-right: 10px;
   box-shadow: 0px 5px 10px #000000;
 }
+
 .project-description {
   padding-top: 10px;
   margin-bottom: 10px;
 }
+
 .border-bottom2 {
   border-bottom: 10px groove var(--secondary-color);
   border-radius: 5px;
 }
+
 .tech-used {
   margin-top: 10px;
   text-align: center;
 }
+
 .project-badge {
   margin: 5px;
   margin-bottom: 0;
 }
+
 .project-button-container {
   margin-bottom: 20px;
   padding-bottom: 20px;
   text-align: center;
 }
+
 .project-btn {
   cursor: pointer;
   color: var(--primary-color);
@@ -364,11 +377,13 @@ header div{ /*secondary-background container*/
   margin-top: 10px;
   box-shadow: 5px 5px 10px #000000;
 }
+
 .project-btn:hover {
   transition: 1s;
   color: rgb(94, 0, 245);
   background-color: var(--primary-color);
 }
+
 .github-icon {
   margin-right: 5px;
   margin-left: 5px;
@@ -390,11 +405,13 @@ header div{ /*secondary-background container*/
   margin-bottom: 5%;
   margin-top: 30px;
 }
+
 .form-button-container {
   margin-bottom: 20px;
   padding-bottom: 20px;
   text-align: center;
 }
+
 .form-btn {
   cursor: pointer;
   color: var(--primary-color);
@@ -405,6 +422,7 @@ header div{ /*secondary-background container*/
   margin-top: 10px;
   box-shadow: 5px 5px 10px #000000;
 }
+
 .form-btn:hover {
   transition: 1s;
   color: rgb(94, 0, 245);
@@ -424,8 +442,9 @@ header div{ /*secondary-background container*/
   flex-direction: column;
   justify-content: center;
   color: black;
-  
+
 }
+
 .form-name input {
   border-radius: 10px;
   border: none 3px var(--secondary-color);
@@ -438,8 +457,9 @@ header div{ /*secondary-background container*/
   display: flex;
   flex-direction: column;
   color: black;
-  
+
 }
+
 .form-email input {
   border-radius: 10px;
   border: none 3px var(--secondary-color);
@@ -453,6 +473,7 @@ header div{ /*secondary-background container*/
   flex-direction: column;
   color: black;
 }
+
 .form-textarea {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -467,9 +488,11 @@ header div{ /*secondary-background container*/
 .form-error {
   color: black;
 }
+
 .form-success {
   color: green;
 }
+
 /* contact form styling end */
 
 /* footer styling start */
@@ -480,13 +503,15 @@ header div{ /*secondary-background container*/
   justify-content: center;
   width: 100%;
 }
+
 .footer-button-container {
   margin-bottom: 20px;
   padding-bottom: 20px;
   text-align: center;
-  display: flex; 
+  display: flex;
   justify-content: center;
 }
+
 .footer-btn {
   cursor: pointer;
   color: var(--primary-color);
@@ -501,9 +526,11 @@ header div{ /*secondary-background container*/
   justify-content: center;
   box-shadow: 5px 5px 10px #000000;
 }
+
 .footer-icon-style {
   margin-bottom: 3px;
 }
+
 .footer-btn:hover {
   transition: 1s;
   color: rgb(94, 0, 245);
@@ -529,11 +556,12 @@ header div{ /*secondary-background container*/
 
 @media screen and (max-width: 1024px) {
 
-  header{
+  header {
     justify-content: center;
     position: relative;
   }
-  .hero{
+
+  .hero {
     width: 100%;
   }
 
@@ -547,9 +575,11 @@ header div{ /*secondary-background container*/
     width: 300px !important;
     height: 250px !important;
   }
-  .about-me img{
+
+  .about-me img {
     margin-right: 0;
   }
+
   .border-right {
     display: none;
     opacity: 0;
@@ -565,17 +595,20 @@ header div{ /*secondary-background container*/
     padding-top: 5px;
     padding-bottom: 5px;
   }
+
   header nav ul li a {
     padding: 15px;
   }
+
   .hero-title {
     margin-left: 5%;
     margin-right: 5%;
   }
+
   #canvas-div {
     position: relative;
     width: 100%;
-    height:100%;
+    height: 100%;
     display: flex;
     justify-content: center;
   }
@@ -584,13 +617,14 @@ header div{ /*secondary-background container*/
     width: 300px !important;
     height: 250px !important;
   }
+
   .about-me h2 {
     font-size: 3vw;
   }
 }
 
 @media screen and (max-width: 575px) {
-  header{
+  header {
     padding-left: 0;
     padding-right: 0;
     flex-direction: column;
@@ -598,6 +632,7 @@ header div{ /*secondary-background container*/
     text-align: center;
     flex-wrap: nowrap !important;
   }
+
   /* header nav {
     font-size: 3.5vw !important ;
   } */
@@ -605,21 +640,26 @@ header div{ /*secondary-background container*/
     flex-wrap: nowrap !important;
     justify-content: center;
   }
+
   header nav ul li {
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 3vw !important;
   }
+
   header nav ul li a {
     padding: 15px;
   }
-  .secondary-background{
+
+  .secondary-background {
     opacity: 0;
   }
+
   .hero-title {
     margin-left: 5%;
     margin-right: 5%;
   }
+
   .hero-flex {
     padding-bottom: 20%;
   }
@@ -635,6 +675,7 @@ header div{ /*secondary-background container*/
     margin: 0;
     font-size: 3vw;
   }
+
   .about-me h2 {
     font-size: 3vw;
     padding: 15px;
@@ -645,6 +686,7 @@ header div{ /*secondary-background container*/
   header nav ul li {
     font-size: 3vw;
   }
+
   header nav ul {
     justify-content: center;
   }
@@ -657,6 +699,7 @@ header div{ /*secondary-background container*/
     width: 100px;
     height: 80px;
   }
+
   .about-me h2 {
     font-size: 3.5vw;
   }
@@ -667,11 +710,13 @@ header div{ /*secondary-background container*/
     flex-wrap: nowrap !important;
     justify-content: center !important;
   }
+
   header nav ul li {
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 2.3vw !important;
   }
+
   /* header nav ul li a {
     padding: 15px;
   } */

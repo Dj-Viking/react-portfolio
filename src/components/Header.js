@@ -2,11 +2,11 @@ import React from 'react';
 
 function Header(props) {
   const tabs = [
-    'Home', 
-    'About', 
-    'Projects', 
-    'Resume', 
-   // 'Contact'
+    'Home',
+    'About',
+    'Projects',
+    'Resume',
+    // 'Contact'
   ];
   const {
     currentTab,
@@ -14,7 +14,7 @@ function Header(props) {
   } = props;
   return (
     <header>
-      <h1>
+      <h1 style={{ marginTop: "2px" }}>
         Anders Ackerman
       </h1>
       <nav> {/* Nav Bar inside the header */}
@@ -25,26 +25,26 @@ function Header(props) {
               <li key={tab}>
                 {
                   tab === 'Resume'
-                  ?
-                  (
-                    <a
-                      target="_blank" 
-                      href="https://docs.google.com/document/d/1qbMSl29EXZBkvwZH6blgTdRlpMsVLCYwTo5eT0pKOQc/edit?usp=sharing"
-                      rel="noreferrer noopener"
-                    > {tab}
-                    </a>
-                  )
-                  : 
-                  (
-                    <a
-                      href={'#' + tab.toLowerCase()}
-                      onClick={() => setTab(tab)}
-                      className={
-                        currentTab === tab ? 'nav-link active' : 'nav-link'
-                      }
-                    > {tab}
-                    </a>
-                  )
+                    ?
+                    (
+                      <a
+                        target="_blank"
+                        href="https://docs.google.com/document/d/1qbMSl29EXZBkvwZH6blgTdRlpMsVLCYwTo5eT0pKOQc/edit?usp=sharing"
+                        rel="noreferrer noopener"
+                      > {tab}
+                      </a>
+                    )
+                    :
+                    (
+                      <a
+                        href={'#' + tab.toLowerCase()}
+                        onClick={() => setTab(tab)}
+                        className={
+                          currentTab === tab ? 'nav-link active' : 'nav-link'
+                        }
+                      > {tab}
+                      </a>
+                    )
                 }
               </li>
             ))
