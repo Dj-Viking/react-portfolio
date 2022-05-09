@@ -8,6 +8,7 @@ const badgeColors = {
   darkBlue: '0f0080',
   deepPurple: '480087',
   teal: '008783',
+  vueGreen: '42b883',
   hotPink: 'ff36ee'
 }
 

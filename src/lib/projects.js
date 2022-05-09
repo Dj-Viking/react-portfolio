@@ -1,12 +1,11 @@
 import badgeColors from "./badgeColors"
 
 //IMAGE IMPORTS
-import CubeWave from '../assets/images/cube-wave.gif';
+import NomadLang from "../assets/images/nomad-lang.png";
 import FFT from '../assets/images/fft-audio-gif.gif';
 import Nomadica from '../assets/images/nomadica-img.png';
 import MeetTheReplacements from '../assets/images/meet-the-replacements.jpg';
 import LEDMatrix from '../assets/images/led-matrix-gif.gif'
-import BookClub from '../assets/images/book-club.png';
 
 export const projects = [
   {
@@ -32,26 +31,32 @@ export const projects = [
     deployLink: 'https://led-matrices.herokuapp.com',
   },
   {
-    name: 'Cube Wave',
-    description: 'p5.js sketch of an animated 3D cube.',
-    imageSrc: CubeWave,
+    name: 'Nomad Lang',
+    description: 'Flash card app for foreign language learning. User customizable cards.',
+    imageSrc: NomadLang,
     technologyBadges: [
-      {
-        isLink: false,
-        src: `https://img.shields.io/badge/p5.JS-${badgeColors.blue}.svg`,
-      },
-      {
-        isLink: false,
-        src: `https://img.shields.io/badge/HTML_Canvas-${badgeColors.orange}.svg`,
-      },
-      {
-        isLink: false,
-        src: `https://img.shields.io/badge/JavaScript-${badgeColors.yellow}.svg`
-      },
 
+      {
+        isLink: true,
+        link: "https://vuejs.org/guide/introduction.html",
+        src: `https://img.shields.io/badge/Vue3-${badgeColors.vueGreen}.svg`,
+      },
+      {
+        isLink: false,
+        src: `https://img.shields.io/badge/TypeScript-${badgeColors.blue}.svg`,
+      },
+      {
+        isLink: false,
+        src: `https://img.shields.io/badge/MongoDB:TypeGoose-${badgeColors.green}.svg`
+      },
+      {
+        isLink: true,
+        link: "https://app.codecov.io/gh/Dj-Viking/nomad-lang",
+        src: `https://codecov.io/gh/Dj-Viking/Nomad-Lang/branch/main/graph/badge.svg?token=X4CXPYZE2O`
+      },
     ],
-    githubLink: 'https://github.com/dj-viking/cube-wave',
-    deployLink: 'https://dj-viking.github.io/cube-wave/',
+    githubLink: 'https://github.com/dj-viking/nomad-lang',
+    deployLink: 'https://nomad-lang.herokuapp.com',
   },
   {
     name: 'Nomadica',
@@ -117,26 +122,5 @@ export const projects = [
       },
     ],
     githubLink: 'https://github.com/Dj-Viking/meetTheReplacements',
-  },
-  {
-    name: 'Book Club',
-    description: 'Content Management web application where users can log in, search for books, save books to their library, and join book clubs to see what other fellow friends and readers are currently reading in their library.',
-    imageSrc: BookClub,
-    technologyBadges: [
-      {
-        isLink: false,
-        src: `https://img.shields.io/badge/Express-${badgeColors.teal}.svg`,
-      },
-      {
-        isLink: false,
-        src: `https://img.shields.io/badge/Handlebars.js-${badgeColors.orange}.svg`,
-      },
-      {
-        isLink: false,
-        src: `https://img.shields.io/badge/MySQL_Sequelize-${badgeColors.blue}.svg`,
-      },
-    ],
-    githubLink: 'https://github.com/Dj-Viking/book-club',
-    deployLink: 'https://book-sequelizers.herokuapp.com/',
   },
 ];
