@@ -1,5 +1,5 @@
-import React from 'react';
-import Sketch from 'react-p5';
+import React from "react";
+import Sketch from "react-p5";
 
 function Home() {
     //build the particles animation here..the scoping only really works inside
@@ -8,12 +8,12 @@ function Home() {
     // inside setup()
     const particles = [];
     function setup(p5) {
-        const canvasAnchor = document.querySelector('#canvas-anchor');
+        const canvasAnchor = document.querySelector("#canvas-anchor");
         const canvasDivEl = document.querySelector("#canvas-div");
         let width = canvasDivEl.offsetWidth - 15;
         let height = canvasDivEl.offsetHeight + 100;
         const canvas = p5.createCanvas(width, height);
-        canvas.parent('canvas-div');
+        canvas.parent("canvas-div");
         canvasDivEl.appendChild(canvasAnchor);
 
         const particlesLength = Math.floor(window.innerWidth / 50);
@@ -36,7 +36,7 @@ function Home() {
             //draw single particle
             draw() {
                 p5.noStroke();
-                p5.fill('rgba(255, 100, 255, .5)');
+                p5.fill("rgba(255, 100, 255, .5)");
                 p5.circle(this.pos.x, this.pos.y, this.size);
             }
             //detect edgeCheck
@@ -57,10 +57,10 @@ function Home() {
                 //if mouse is in canvas
                 // get bounding client rect of canvas div
                 // adjust velocity depending on mouse position
-                const rect = document.querySelector("#defaultCanvas0").getBoundingClientRect();
-                if (
-                    (p5.mouseX >= 0 && p5.mouseX <= rect.width)
-                ) {
+                const rect = document
+                    .querySelector("#defaultCanvas0")
+                    .getBoundingClientRect();
+                if (p5.mouseX >= 0 && p5.mouseX <= rect.width) {
                     if (p5.mouseX < this.pos.x) {
                         this.vel.x *= -1;
                     }
@@ -71,11 +71,21 @@ function Home() {
             }
             //connect particles
             checkParticles(particles) {
-                particles.forEach(particle => {
-                    const distance = p5.dist(this.pos.x, this.pos.y, particle.pos.x, particle.pos.y);
+                particles.forEach((particle) => {
+                    const distance = p5.dist(
+                        this.pos.x,
+                        this.pos.y,
+                        particle.pos.x,
+                        particle.pos.y
+                    );
                     if (distance < 120) {
-                        p5.stroke('rgba(66, 255, 200, .5)');
-                        p5.line(this.pos.x, this.pos.y, particle.pos.x, particle.pos.y);
+                        p5.stroke("rgba(66, 255, 200, .5)");
+                        p5.line(
+                            this.pos.x,
+                            this.pos.y,
+                            particle.pos.x,
+                            particle.pos.y
+                        );
                     }
                 });
             }
@@ -86,14 +96,13 @@ function Home() {
     }
 
     function draw(p5) {
-        p5.background('rgba(66, 146, 206, .2)');
+        p5.background("rgba(66, 146, 206, .2)");
         particles.forEach((particle, index) => {
             particle.update();
             particle.draw();
             particle.checkParticles(particles.slice(index));
         });
     }
-
 
     return (
         <div>
@@ -105,17 +114,12 @@ function Home() {
                                 <Sketch setup={setup} draw={draw} />
                             </div>
                         </div>
-                        <h2>
-                        </h2>
-                        <h3>
-                            Web &amp; Software Development Portfolio
-                        </h3>
+                        <h3>Web &amp; Software Development Portfolio</h3>
                     </div>
                 </section>
             </section>
         </div>
-    )
+    );
 }
-
 
 export default Home;
