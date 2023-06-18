@@ -33,8 +33,7 @@ export const projects = [
     },
     {
         name: "Nomad Lang",
-        description:
-            "Flash card app for foreign language learning. User customizable cards.",
+        description: "Flash card app for foreign language learning. User customizable cards.",
         imageSrc: NomadLang,
         technologyBadges: [
             {
@@ -61,8 +60,7 @@ export const projects = [
     },
     {
         name: "Nomadica",
-        description:
-            "Front-End Application to Search for Job Salaries by Country Name.",
+        description: "Front-End Application to Search for Job Salaries by Country Name.",
         imageSrc: Nomadica,
         technologyBadges: [
             {
@@ -79,7 +77,7 @@ export const projects = [
             },
         ],
         githubLink: "https://github.com/Dj-Viking/Nomadica",
-        deployLink: "https://nomadica-app.herokuapp.com/",
+        deployLink: "https://nomadica.onrender.com/",
     },
     {
         name: "FFT Audio Visualizer",
@@ -108,8 +106,7 @@ export const projects = [
     },
     {
         name: "Meet The Replacements",
-        description:
-            "Meet The Replacements Orlando Fringe 2018 theatre show LED set piece.",
+        description: "Meet The Replacements Orlando Fringe 2018 theatre show LED set piece.",
         imageSrc: MeetTheReplacements,
         technologyBadges: [
             {
