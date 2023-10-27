@@ -10,8 +10,8 @@ import LEDMatrix from "../assets/images/led-matrix-gif.gif";
 export const projects = [
     {
         name: "LED Art Matrix",
-        description:
-            "MERN-stack application LED Matrix emulator build with React, custom tooling to dynamically generate stylesheets",
+        description: `MERN-stack application LED Matrix emulator build with React, 
+        html Canvas API rendering rectangles, MIDI Controls change visuals supporting XONEK2 and TouchOSC (more to come)`,
         imageSrc: LEDMatrix,
         technologyBadges: [
             {
