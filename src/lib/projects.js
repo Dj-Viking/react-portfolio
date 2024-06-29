@@ -56,7 +56,7 @@ export const projects = [
             },
         ],
         githubLink: "https://github.com/dj-viking/nomad-lang",
-        deployLink: "https://nomad-lang.herokuapp.com",
+        deployLink: "https://nomad-lang.onrender.com",
     },
     {
         name: "Nomadica",
