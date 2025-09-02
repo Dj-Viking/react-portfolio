@@ -1,31 +1,25 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.95239287.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.05f288a6.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.05f288a6.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.e09c56b8.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.e09c56b8.js.map",
-    "static/js/2.3ce758a2.chunk.js": "/react-portfolio/static/js/2.3ce758a2.chunk.js",
-    "static/js/2.3ce758a2.chunk.js.map": "/react-portfolio/static/js/2.3ce758a2.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.f49de6ae.css",
+    "main.js": "/react-portfolio/static/js/main.5f6adccf.js",
+    "static/media/led-matrix-gif.gif": "/react-portfolio/static/media/led-matrix-gif.72cdb580314eff7693fe.gif",
+    "static/media/fft-audio-gif.gif": "/react-portfolio/static/media/fft-audio-gif.bb95660d9663498ca99f.gif",
+    "static/media/nomadica-img.png": "/react-portfolio/static/media/nomadica-img.5aa8563d3c83549d29c0.png",
+    "static/media/ME.jpg": "/react-portfolio/static/media/ME.95aa7270bd20a90fbc5c.jpg",
+    "static/media/open-road-resized.jpg": "/react-portfolio/static/media/open-road-resized.da50d1daa181974a4ac9.jpg",
+    "static/media/mountains-resized.jpg": "/react-portfolio/static/media/mountains-resized.9896ff0fcbbec2116507.jpg",
+    "static/media/nomad-lang.png": "/react-portfolio/static/media/nomad-lang.c341f604eaf8b1d68d28.png",
+    "static/media/meet-the-replacements.jpg": "/react-portfolio/static/media/meet-the-replacements.9a07be1952e13693d38b.jpg",
     "index.html": "/react-portfolio/index.html",
-    "static/css/main.95239287.chunk.css.map": "/react-portfolio/static/css/main.95239287.chunk.css.map",
-    "static/js/2.3ce758a2.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.3ce758a2.chunk.js.LICENSE.txt",
-    "static/media/ME.95aa7270.jpg": "/react-portfolio/static/media/ME.95aa7270.jpg",
-    "static/media/fft-audio-gif.bb95660d.gif": "/react-portfolio/static/media/fft-audio-gif.bb95660d.gif",
-    "static/media/github.16a9304e.svg": "/react-portfolio/static/media/github.16a9304e.svg",
-    "static/media/gmail.ab6acc4d.svg": "/react-portfolio/static/media/gmail.ab6acc4d.svg",
-    "static/media/led-matrix-gif.72cdb580.gif": "/react-portfolio/static/media/led-matrix-gif.72cdb580.gif",
-    "static/media/linkedin.03f1d164.svg": "/react-portfolio/static/media/linkedin.03f1d164.svg",
-    "static/media/meet-the-replacements.9a07be19.jpg": "/react-portfolio/static/media/meet-the-replacements.9a07be19.jpg",
-    "static/media/index.css": "/react-portfolio/static/media/open-road-resized.da50d1da.jpg",
-    "static/media/nomad-lang.c341f604.png": "/react-portfolio/static/media/nomad-lang.c341f604.png",
-    "static/media/nomadica-img.5aa8563d.png": "/react-portfolio/static/media/nomadica-img.5aa8563d.png",
-    "static/media/twitch.6414f22f.svg": "/react-portfolio/static/media/twitch.6414f22f.svg"
+    "static/media/github.svg": "/react-portfolio/static/media/github.16a9304e38fd8167989291ab92544e14.svg",
+    "static/media/linkedin.svg": "/react-portfolio/static/media/linkedin.03f1d164221e3a81954e6ec24a350288.svg",
+    "static/media/gmail.svg": "/react-portfolio/static/media/gmail.ab6acc4de861d7cfe8e41c796447939e.svg",
+    "static/media/twitch.svg": "/react-portfolio/static/media/twitch.2e43833a585d47d3096f691bd483592c.svg",
+    "main.f49de6ae.css.map": "/react-portfolio/static/css/main.f49de6ae.css.map",
+    "main.5f6adccf.js.map": "/react-portfolio/static/js/main.5f6adccf.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.e09c56b8.js",
-    "static/js/2.3ce758a2.chunk.js",
-    "static/css/main.95239287.chunk.css",
-    "static/js/main.05f288a6.chunk.js"
+    "static/css/main.f49de6ae.css",
+    "static/js/main.5f6adccf.js"
   ]
 }
